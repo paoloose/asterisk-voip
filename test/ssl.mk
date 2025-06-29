@@ -3,7 +3,7 @@
 # SSL and TLS   make-functions
 #
 
-SSL_O    ?= example.com
+SSL_O    ?= asterisk.paoloose.site
 SSL_KEY  ?= rsa:2048 # rsa:2048 rsa:4096
 SSL_MAIL ?=
 SSL_PASS ?= secret
