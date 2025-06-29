@@ -26,6 +26,19 @@ This (non official) repository provides dockerized Asterisk PBX.
 - Log directed to docker daemon with configurable level
 - Multi-staged build providing the images `mini`, `base`, `full` and `xtra`
 
+## Getting started with Docker compose
+
+The published version of this container has some pre-defined values that you
+may want to change. The easiest way to do this is to clone the repository and
+build the image yourself.
+
+```bash
+make build-all
+cd demo/
+
+docker compose up --force-recreate
+```
+
 ## Tags
 
 The MAJOR.MINOR.PATCH [SemVer](https://semver.org/)

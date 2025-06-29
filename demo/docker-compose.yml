@@ -2,7 +2,9 @@ name: demo
 
 services:
   tele:
-    image: mlan/asterisk
+    build:
+      context: ..
+      dockerfile: Dockerfile
     network_mode: bridge                    # Only here to help testing
     cap_add:
       - sys_ptrace                          # Only here to help testing
