@@ -15,7 +15,7 @@ NET_ENV  ?= --network $(NET_NAME)
 CNT_LIST ?= pbx
 
 PBX_NAME ?= $(TST_NAME)-pbx
-PBX_DOM  ?= example.com
+PBX_DOM  ?= asterisk.paoloose.site
 PBX_FQDN ?= pbx.$(PBX_DOM)
 PBX_CMD  ?= asterisk -r
 PBX_SIPP ?= 5060
